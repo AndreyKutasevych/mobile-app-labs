@@ -1,7 +1,8 @@
-package com.example.placemark.models
+package com.example.placemark.main
+
 import java.util.concurrent.atomic.AtomicLong
 
-class PlacemarkStore{
+class PlacedMarkList{
     private val placemarks = ArrayList<PlacemarkModel>()
     private val lastId = AtomicLong(0L)
 
