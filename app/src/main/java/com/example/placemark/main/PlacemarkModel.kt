@@ -1,4 +1,4 @@
-package com.example.placemark.models
+package com.example.placemark.main
 
 /**
  * Data class representing a single Placemark item.
@@ -8,6 +8,6 @@ data class PlacemarkModel(
     var id: Long = 0L,
     var title: String = "",
     var description: String = "",
-    val x: Int = 0,
-    val y: Int = 0,
+    val x: Double = 0.0,
+    val y: Double = 0.0,
     )
